@@ -1,0 +1,42 @@
+<h2>Create Customer</h2>
+<form action="/create_customer" method="post">
+  First Name: <input type="text" name="fname"><br>
+  Second Name: <input type="text" name="sname"><br>
+  Address: <input type="text" name="address"><br>
+  Password: <input type="text" name="password"><br>
+  Security Question: <input type="text" name="securityQ"><br>
+  Security Answer: <input type="text" name="SecurityAns"><br>
+  email: <input type="text" name="email"><br>
+  pin: <input type="number" name="pin"><br>
+  <input type="submit" value="Submit">
+</form>
+<h3>{{response}}</h3>
+
+<h2>Get Customer</h2>
+<form action="/get_customer" method="post">
+  Customer ID: <input type="number" name="custId"><br>
+  <input type="submit" value="Submit">
+</form>
+<h3>{{response1}}</h3>
+
+<h2>Update Customer</h2>
+<form action="/update_customer" method="post">
+  First Name: <input type="text" name="fname"><br>
+  Second Name: <input type="text" name="sname"><br>
+  Address: <input type="text" name="address"><br>
+  Password: <input type="text" name="password"><br>
+  Security Question: <input type="text" name="securityQ"><br>
+  Security Answer: <input type="text" name="SecurityAns"><br>
+  email: <input type="text" name="email"><br>
+  pin: <input type="number" name="pin"><br>
+  Customer ID: <input type="text" name="custId"><br>
+  <input type="submit" value="Submit">
+</form>
+<h3>{{response2}}</h3>
+
+<h2>Delete Customer</h2>
+<form action="/delete_customer" method="post"">
+  Customer ID: <input type="text" name="custId"><br>
+  <input type="submit" value="Submit">
+</form>
+<h3>{{response3}}</h3>
