@@ -29,7 +29,7 @@ router.post('/create_customer', function(req, res) {
         address: address,
         password: password,
         securityQ: securityQ,
-        SecurityAns: securityAns,
+        securityAns: SecurityAns,
         email: email,
         pin: pin
     };
